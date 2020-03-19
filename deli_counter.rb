@@ -13,6 +13,7 @@ end
 
 def take_a_number(katz_deli, name)
   index = 0
+  if katz_deli.length>0
     puts  "Welcome, #{name}. You are number #{index+1} in line."
 end
 
